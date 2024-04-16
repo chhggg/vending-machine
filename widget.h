@@ -17,6 +17,7 @@ class Widget : public QWidget
 public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
+    int money{0};
     void changeMoney(int);
     void enableButtons();
 

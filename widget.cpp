@@ -1,8 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
 
-int money = 0;
-
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Widget)
